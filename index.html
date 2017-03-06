@@ -5,26 +5,27 @@
 	<title>Converter</title>
 </head>
 <body>
-	<table>
+	<table border="1">
   <tr>
-    <td>Farenheit</td>
+    <td>Fahrenheit</td>
     <td>
-    	<input type="text" name="Farenheit">
-    </td> 
+    	<input type="text" name="Fahrenheit" id="fahrenheit">
+    </td>
     <td>
-		<button type="button">Convert to Celcuis</button>
+		<button type="submit" name="Fahrenheit" onclick="converter()">Convert to Celcuis</button>
     </td>
   </tr>
   <tr>
     <td>Celcuis</td>
     <td>
-    	<input type="text" name="Celcuis">
+    	<input type="text" name="Celsius" id="celsius">
 
-    </td> 
+    </td>
     <td>
-		<button type="button">Convert to Farenheit</button>
+		<button type="submit" name="Celsius" onclick="converter2()">Convert to Fahrenheit</button>
 	</td>
   </tr>
 </table>
+<script src="js/main.js" type="text/javascript"></script>
 </body>
 </html>
